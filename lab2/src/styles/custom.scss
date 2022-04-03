@@ -1,0 +1,34 @@
+@import "variables";
+@import "./src/styles/bootstrap/scss/bootstrap";
+
+@mixin border-bottom($size) {
+	border-bottom: $size solid #000;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	background: $mrunals-white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: $primary-font-size;
+	background-clip: border-box;
+}
+
+p {
+	font-size: $secondary-font-size;
+}
+
+a:link {
+	color : #236AB9;
+	text-align: center;
+	text-decoration: none;
+}
+
+.office-img {
+    width: $image-width ;
+    height: $image-height ;
+}
+

@@ -1,0 +1,8 @@
+@use "sass:math";
+
+@import "./src/styles/bootstrap/scss/bootstrap";
+$primary-font-size: 15pt;
+$secondary-font-size: math.div($primary-font-size, 1.5pt);
+$mrunals-white: white;
+$image-height : 15rem;
+$image-width: 20rem;
